@@ -48,12 +48,7 @@ public class BrowserAutomation {
                 return d.getTitle().toLowerCase().startsWith("apple");
             }
         });
-    //throw  noSearchResultsFound( titleStartsWith);
     }
-   // private static IllegalArgumentException noSearchResultsFound(String titleStartsWith ) {
-    //    return new IllegalArgumentException("No results found for "+ titleStartsWith);
-  //  }
-
     @After()
     public void closeBrowser() {
         driver.quit();

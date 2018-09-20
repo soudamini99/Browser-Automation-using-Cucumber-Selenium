@@ -1,4 +1,5 @@
 # Browser-Automation-using-Cucumber-Selenium
+Create a maven project using any of the IDEs like Ecllipse or IntelliJ.
 Create a feature file with .feature extension in src/main/resources/featurefile path of your project.
 Run the feature file which creates step definition.
 Create a Java class in src/main/java/WebSearch.StepDefinitions.demo path  and copy the step defintions generated from the feature file.
